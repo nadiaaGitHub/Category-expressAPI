@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 app.use('/api', require('./api/users/router'))
-app.use('/api', require('./api/catagory/router'))
+app.use('/api', require('./api/category/router'))
 
 
 
